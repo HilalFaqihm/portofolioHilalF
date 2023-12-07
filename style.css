@@ -314,7 +314,11 @@ span {
     padding-bottom: 5rem;
 }
 
-
+.icon-menu-responsive {
+    display: flex;
+    justify-content: space-beetwen;
+    align-items: center;
+}
  
 .education .education-row {
     display: flex;
