@@ -14,13 +14,13 @@
 
 <header class=" header">
 
-    <div class="icon-menu-responsive">
+    <div class="icon-menu-responsive" id="navi">
     <a href="#" class="logo">Hilal.</a>
         <i class='bx bx-menu' id="menu-icon"></i>
     </div>
 
 
-    <nav class="navbar">
+    <nav class="navbar" id="navv">
         <a href="#home" class="active">Home</a>
         <a href="#about">About</a>
         <a href="#education">Edication</a>
@@ -243,6 +243,11 @@ data-aos-duration="2000" class="skills" id="skills">
             timer: 1500
           })
     }
+    let menu = document.getElementById('navv')
+    let icon = document.getElementByIda('navi')
+    icon.addEventListener('click',function(){
+        menu.style.display = 'flex'
+    })
 </script>
 
     <script src="portopolio.js"></script>
